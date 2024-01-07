@@ -1,340 +1,340 @@
-// // let $function = 27;
-// // console.log($function);
-// // console.log(typeof null);
+// let $function = 27;
+// console.log($function);
+// console.log(typeof null);
 
-// // const now = 2037;
-// // const ageJonas = now - 1991;
-// // const ageSarah = now - 2018;
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
 
-// // console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
 
-// // const massMark = 78;
-// // const heightMark = 1.69;
-// // const massJohn = 92;
-// // const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-// // const massMark = 95;
-// // const heightMark = 1.88;
-// // const massJohn = 85;
-// // const heightJohn = 1.76;
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 
-// // const BMIMark = massMark / heightMark ** 2;
-// // const BMIJohn = massJohn / (heightJohn * heightJohn);
-// // console.log(BMIMark, BMIJohn);
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
 
-// // if (BMIMark > BMIJohn) {
-// //   console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`)
-// // } else {
-// //   console.log(`John's BMI (${BMIJohn}) is higher than Marks's (${BMIMark})!`)
-// // }
+// if (BMIMark > BMIJohn) {
+//   console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`)
+// } else {
+//   console.log(`John's BMI (${BMIJohn}) is higher than Marks's (${BMIMark})!`)
+// }
 
-// // console.log(Boolean(0));
-// // console.log(Boolean(undefined));
-// // console.log(Boolean('Jonas'));
-// // console.log(Boolean({}));
-// // console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
-// // const jonas = {
-// //   firstName: 'Jonas',
-// //   lastName: 'Schmedtmann',
-// //   birthYeah: 1991,
-// //   job: 'teacher',
-// //   friends: ['Michael', 'Peter', 'Steven'],
-// //   hasDriversLicense: true,
+// const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   birthYeah: 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven'],
+//   hasDriversLicense: true,
 
-// //     calculateAge: function (birthYeah) {
-// //     return 2037 - birthYeah;
-// //   }
+//     calculateAge: function (birthYeah) {
+//     return 2037 - birthYeah;
+//   }
 
-// //   calculateAge: function () {
-// //     // console.log(this);
-// //     return 2037 - this.birthYeah;
-// //   }
+//   calculateAge: function () {
+//     // console.log(this);
+//     return 2037 - this.birthYeah;
+//   }
 
-// // console.log(jonas.calculateAge());
+// console.log(jonas.calculateAge());
 
-// // const jonas = {
-// //   firstName: 'Jonas',
-// //   lastName: 'Schmedtmann',
-// //   birthYear: 1991,
-// //   job: 'teacher',
-// //   friends: ['Michael', 'Peter', 'Steven'],
-// //   hasDriversLicense: true,
+// const jonas = {
+//   firstName: 'Jonas',
+//   lastName: 'Schmedtmann',
+//   birthYear: 1991,
+//   job: 'teacher',
+//   friends: ['Michael', 'Peter', 'Steven'],
+//   hasDriversLicense: true,
 
-// //   calculateAge: function () {
-// //     return 2037 - this.birthYear;
-// //   }
-// // };
+//   calculateAge: function () {
+//     return 2037 - this.birthYear;
+//   }
+// };
 
-// // console.log(jonas.calculateAge());
+// console.log(jonas.calculateAge());
 
-// // function isAnagram(str1, str2) {
-// //   for (let i = 0; i < str1.length; i++) {
-// //     for (let j = i + 1; j < str2.length; j++) {
-// //       if (str1[i] > str2[j]) {
-// //         //swap the strings
-// //         let temp = str1[i];
-// //         str1[i] = str2[j];
-// //         str2[j] = temp;
-// //       }
-// //       if (str2[i] > str2[j]) {
-// //         // Swap characters in str2
-// //         let temp = str2[i];
-// //         str2[i] = str2[j];
-// //         str2[j] = temp;
-// //       }
-// //     }
-// //   }
-// //   if (str1.localeCompare(str2) === 0) {
-// //     return 1;
-// //   } else return 0;
-// // }
+// function isAnagram(str1, str2) {
+//   for (let i = 0; i < str1.length; i++) {
+//     for (let j = i + 1; j < str2.length; j++) {
+//       if (str1[i] > str2[j]) {
+//         //swap the strings
+//         let temp = str1[i];
+//         str1[i] = str2[j];
+//         str2[j] = temp;
+//       }
+//       if (str2[i] > str2[j]) {
+//         // Swap characters in str2
+//         let temp = str2[i];
+//         str2[i] = str2[j];
+//         str2[j] = temp;
+//       }
+//     }
+//   }
+//   if (str1.localeCompare(str2) === 0) {
+//     return 1;
+//   } else return 0;
+// }
 
-// // isAnagram(rasp, arsp);
+// isAnagram(rasp, arsp);
 
-// // function isAnagram(str1, str2) {
-// //   // Convert strings to arrays to allow swapping elements
-// //   let arr1 = str1.split("");
-// //   let arr2 = str2.split("");
+// function isAnagram(str1, str2) {
+//   // Convert strings to arrays to allow swapping elements
+//   let arr1 = str1.split("");
+//   let arr2 = str2.split("");
 
-// //   // Bubble sort the arrays
-// //   for (let i = 0; i < arr1.length - 1; i++) {
-// //     for (let j = i + 1; j < arr1.length; j++) {
-// //       if (arr1[i] > arr1[j]) {
-// //         // Swap characters in arr1
-// //         let temp = arr1[i];
-// //         arr1[i] = arr1[j];
-// //         arr1[j] = temp;
-// //       }
-// //       if (arr2[i] > arr2[j]) {
-// //         // Swap characters in arr2
-// //         let temp = arr2[i];
-// //         arr2[i] = arr2[j];
-// //         arr2[j] = temp;
-// //       }
-// //     }
-// //   }
+//   // Bubble sort the arrays
+//   for (let i = 0; i < arr1.length - 1; i++) {
+//     for (let j = i + 1; j < arr1.length; j++) {
+//       if (arr1[i] > arr1[j]) {
+//         // Swap characters in arr1
+//         let temp = arr1[i];
+//         arr1[i] = arr1[j];
+//         arr1[j] = temp;
+//       }
+//       if (arr2[i] > arr2[j]) {
+//         // Swap characters in arr2
+//         let temp = arr2[i];
+//         arr2[i] = arr2[j];
+//         arr2[j] = temp;
+//       }
+//     }
+//   }
 
-// //   // Join the sorted arrays back into strings
-// //   str1 = arr1.join("");
-// //   str2 = arr2.join("");
+//   // Join the sorted arrays back into strings
+//   str1 = arr1.join("");
+//   str2 = arr2.join("");
 
-// //   // Compare the sorted strings
-// //   if (str1.localeCompare(str2) === 0) {
-// //     return 1; // The strings are anagrams
-// //   } else {
-// //     return 0; // The strings are not anagrams
-// //   }
-// // }
+//   // Compare the sorted strings
+//   if (str1.localeCompare(str2) === 0) {
+//     return 1; // The strings are anagrams
+//   } else {
+//     return 0; // The strings are not anagrams
+//   }
+// }
 
-// // // Test the function
-// // console.log(isAnagram("rasp", "arsp")); // Output: 1 (true)
+// // Test the function
+// console.log(isAnagram("rasp", "arsp")); // Output: 1 (true)
 
 
-// // String handbook
+// String handbook
 
-// // String: length, indexOf(), lastIndexOf(), slice(), substring(), replace(),
-// // split(), trim(), toUpperCase(), toLowerCase(), etc.
+// String: length, indexOf(), lastIndexOf(), slice(), substring(), replace(),
+// split(), trim(), toUpperCase(), toLowerCase(), etc.
 
-// // Run each function to see the output, play and learn by doing.
+// Run each function to see the output, play and learn by doing.
 
-// // Length
-// // function getLength(str) {
-// //   console.log("Original String:", str);
-// //   console.log("Length:", str.length);
-// // }
-// // getLength("Hello World");
+// Length
+// function getLength(str) {
+//   console.log("Original String:", str);
+//   console.log("Length:", str.length);
+// }
+// getLength("Hello World");
 
-// // // indexOf
-// // function findIndexOf(str, target) {
-// //   console.log("Original String:", str);
-// //   console.log("Index:", str.indexOf(target));
-// // }
-// // findIndexOf("Hello World", "World");
+// // indexOf
+// function findIndexOf(str, target) {
+//   console.log("Original String:", str);
+//   console.log("Index:", str.indexOf(target));
+// }
+// findIndexOf("Hello World", "World");
 
-// // // lastIndexOf
-// // function findLastIndexOf(str, target) {
-// //   console.log("Original String:", str);
-// //   console.log("Index:", str.lastIndexOf(target));
-// // }
-// // findLastIndexOf("Hello World World", "World");
+// // lastIndexOf
+// function findLastIndexOf(str, target) {
+//   console.log("Original String:", str);
+//   console.log("Index:", str.lastIndexOf(target));
+// }
+// findLastIndexOf("Hello World World", "World");
 
-// // // slice
-// // function getSlice(str, start, end) {
-// //   console.log("Original String:", str);
-// //   console.log("After slice:", str.slice(start, end));
-// // }
-// // getSlice("Hello World", 0, 5);
+// // slice
+// function getSlice(str, start, end) {
+//   console.log("Original String:", str);
+//   console.log("After slice:", str.slice(start, end));
+// }
+// getSlice("Hello World", 0, 5);
 
-// // // substring
-// // function getSubstring(str, start, end) {
-// //   console.log("Original String:", str);
-// //   console.log("After substring:", str.substring(start, end));
-// // }
-// // getSubstring("Hello World", 0, 5);
+// // substring
+// function getSubstring(str, start, end) {
+//   console.log("Original String:", str);
+//   console.log("After substring:", str.substring(start, end));
+// }
+// getSubstring("Hello World", 0, 5);
 
-// // // replace
-// // function replaceString(str, target, replacement) {
-// //   console.log("Original String:", str);
-// //   console.log("After replace:", str.replace(target, replacement));
-// // }
-// // replaceString("Hello World", "World", "JavaScript");
+// // replace
+// function replaceString(str, target, replacement) {
+//   console.log("Original String:", str);
+//   console.log("After replace:", str.replace(target, replacement));
+// }
+// replaceString("Hello World", "World", "JavaScript");
 
-// // // split
-// // function splitString(str, separator) {
-// //   console.log("Original String:", str);
-// //   console.log("After split:", str.split(separator));
-// // }
-// // splitString("Hello World", " ");
+// // split
+// function splitString(str, separator) {
+//   console.log("Original String:", str);
+//   console.log("After split:", str.split(separator));
+// }
+// splitString("Hello World", " ");
 
-// // // trim
-// // function trimString(str) {
-// //   console.log("Original String:", str);
-// //   console.log("After trim:", str.trim());
-// // }
-// // trimString(" Hello World ");
+// // trim
+// function trimString(str) {
+//   console.log("Original String:", str);
+//   console.log("After trim:", str.trim());
+// }
+// trimString(" Hello World ");
 
-// // // toUpperCase
-// // function toUpper(str) {
-// //   console.log("Original String:", str);
-// //   console.log("After toUpperCase:", str.toUpperCase());
-// // }
-// // toUpper("Hello World");
+// // toUpperCase
+// function toUpper(str) {
+//   console.log("Original String:", str);
+//   console.log("After toUpperCase:", str.toUpperCase());
+// }
+// toUpper("Hello World");
 
-// // // toLowerCase
-// // function toLower(str) {
-// //   console.log("Original String:", str);
-// //   console.log("After toLowerCase:", str.toLowerCase());
-// // }
-// // toLower("Hello World");
+// // toLowerCase
+// function toLower(str) {
+//   console.log("Original String:", str);
+//   console.log("After toLowerCase:", str.toLowerCase());
+// }
+// toLower("Hello World");
 
-// // function explainParseInt(value) {
-// //   console.log("Original Value:", value);
-// //   let result = parseInt(value);
-// //   console.log("After parseInt:", result);
-// // }
+// function explainParseInt(value) {
+//   console.log("Original Value:", value);
+//   let result = parseInt(value);
+//   console.log("After parseInt:", result);
+// }
 
-// // // Example Usage for parseInt
-// // explainParseInt("42");
-// // explainParseInt("42px");
-// // explainParseInt("3.14");
+// // Example Usage for parseInt
+// explainParseInt("42");
+// explainParseInt("42px");
+// explainParseInt("3.14");
 
-// // function explainParseFloat(value) {
-// //   console.log("Original Value:", value);
-// //   let result = parseFloat(value);
-// //   console.log("After parseFloat:", result);
-// // }
+// function explainParseFloat(value) {
+//   console.log("Original Value:", value);
+//   let result = parseFloat(value);
+//   console.log("After parseFloat:", result);
+// }
 
-// // // Example Usage for parseFloat
-// // explainParseFloat("3.14");
-// // explainParseFloat("42");
-// // explainParseFloat("42px");
+// // Example Usage for parseFloat
+// explainParseFloat("3.14");
+// explainParseFloat("42");
+// explainParseFloat("42px");
 
-// // Array handbook
+// Array handbook
 
-// // Array:   push(), pop(), shift(), unshift(), splice(), slice(),
-// // concat(), forEach(), map(), filter(), reduce(), find(), sort()
+// Array:   push(), pop(), shift(), unshift(), splice(), slice(),
+// concat(), forEach(), map(), filter(), reduce(), find(), sort()
 
-// // Run each function to see the output, play and learn by doing.
+// Run each function to see the output, play and learn by doing.
 
-// // push()
-// // function pushExample(arr, element) {
-// //   console.log("Original Array:", arr);
+// push()
+// function pushExample(arr, element) {
+//   console.log("Original Array:", arr);
 
-// //   arr.push(element);
-// //   console.log("After push:", arr);
-// // }
-// // pushExample([1, 2, 3], 4);
+//   arr.push(element);
+//   console.log("After push:", arr);
+// }
+// pushExample([1, 2, 3], 4);
 
-// // // pop()
-// // function popExample(arr) {
-// //   console.log("Original Array:", arr);
+// // pop()
+// function popExample(arr) {
+//   console.log("Original Array:", arr);
 
-// //   arr.pop();
-// //   console.log("After pop:", arr);
-// // }
-// // popExample([1, 2, 3]);
+//   arr.pop();
+//   console.log("After pop:", arr);
+// }
+// popExample([1, 2, 3]);
 
-// // // shift()
-// // function shiftExample(arr) {
-// //   console.log("Original Array:", arr);
+// // shift()
+// function shiftExample(arr) {
+//   console.log("Original Array:", arr);
 
-// //   arr.shift();
-// //   console.log("After shift:", arr);
-// // }
-// // shiftExample([1, 2, 3]);
+//   arr.shift();
+//   console.log("After shift:", arr);
+// }
+// shiftExample([1, 2, 3]);
 
-// // // unshift()
-// // function unshiftExample(arr, element) {
-// //   console.log("Original Array:", arr);
+// // unshift()
+// function unshiftExample(arr, element) {
+//   console.log("Original Array:", arr);
 
-// //   arr.unshift(element);
-// //   console.log("After unshift:", arr);
-// // }
-// // unshiftExample([1, 2, 3], 0);
+//   arr.unshift(element);
+//   console.log("After unshift:", arr);
+// }
+// unshiftExample([1, 2, 3], 0);
 
-// // // concat()
-// // function concatExample(arr1, arr2) {
-// //   console.log("Original Arrays:", arr1, arr2);
+// // concat()
+// function concatExample(arr1, arr2) {
+//   console.log("Original Arrays:", arr1, arr2);
 
-// //   let arr3 = arr1.concat(arr2);
-// //   console.log("After concat:", arr3);
-// // }
-// // concatExample([1, 2, 3], [4, 5, 6]);
+//   let arr3 = arr1.concat(arr2);
+//   console.log("After concat:", arr3);
+// }
+// concatExample([1, 2, 3], [4, 5, 6]);
 
-// // // forEach()
-// // function forEachExample(arr) {
-// //   console.log("Original Array:", arr);
+// // forEach()
+// function forEachExample(arr) {
+//   console.log("Original Array:", arr);
 
-// //   arr.forEach(function(item, index) {
-// //     console.log(item, index);
-// //   });
-// // }
-// // forEachExample([1, 2, 3]);
+//   arr.forEach(function(item, index) {
+//     console.log(item, index);
+//   });
+// }
+// forEachExample([1, 2, 3]);
 
-// // // map()
-// // function mapExample(arr) {
-// //   console.log("Original Array:", arr);
+// // map()
+// function mapExample(arr) {
+//   console.log("Original Array:", arr);
 
-// //   let newArr = arr.map(function(item) {
-// //     return item * 2;
-// //   });
-// //   console.log("After map:", newArr);
-// // }
-// // mapExample([1, 2, 3]);
+//   let newArr = arr.map(function(item) {
+//     return item * 2;
+//   });
+//   console.log("After map:", newArr);
+// }
+// mapExample([1, 2, 3]);
 
-// // // filter()
-// // function filterExample(arr) {
-// //   console.log("Original Array:", arr);
+// // filter()
+// function filterExample(arr) {
+//   console.log("Original Array:", arr);
 
-// //   let newArr = arr.filter(function(item) {
-// //     return item > 3;
-// //   });
-// //   console.log("After filter:", newArr);
-// // }
-// // filterExample([1, 2, 3, 4, 5]);
+//   let newArr = arr.filter(function(item) {
+//     return item > 3;
+//   });
+//   console.log("After filter:", newArr);
+// }
+// filterExample([1, 2, 3, 4, 5]);
 
-// // // find()
-// // function findExample(arr) {
-// //   console.log("Original Array:", arr);
+// // find()
+// function findExample(arr) {
+//   console.log("Original Array:", arr);
 
-// //   let found = arr.find(function(item) {
-// //     return item > 3;
-// //   });
-// //   console.log("After find:", found);
-// // }
-// // findExample([1, 2, 3, 4, 5]);
+//   let found = arr.find(function(item) {
+//     return item > 3;
+//   });
+//   console.log("After find:", found);
+// }
+// findExample([1, 2, 3, 4, 5]);
 
-// // // sort()
-// // function sortExample(arr) {
-// //   console.log("Original Array:", arr);
+// // sort()
+// function sortExample(arr) {
+//   console.log("Original Array:", arr);
 
-// //   arr.sort(function(a, b) {
-// //     return a - b;
-// //   });
-// //   console.log("After sort:", arr);
-// // }
-// // sortExample([5, 2, 3, 4, 1]);
+//   arr.sort(function(a, b) {
+//     return a - b;
+//   });
+//   console.log("After sort:", arr);
+// }
+// sortExample([5, 2, 3, 4, 1]);
 
 
 // class Animal {
@@ -461,121 +461,121 @@
 
 // // // ////////////////////////////////////
 // // // // Linking a JavaScript File
-// // // let js = "amazing";
-// // // console.log(40 + 8 + 23 - 10);
+// let js = "amazing";
+// console.log(40 + 8 + 23 - 10);
 
 // // //////////////////////////////////////
 // // // // Values and Variables
-// // // console.log("Jonas");
-// // // console.log(23);
+// console.log("Jonas");
+// console.log(23);
 
-// // // let firstName = "Matilda";
+// let firstName = "Matilda";
 
-// // // console.log(firstName);
-// // // console.log(firstName);
-// // // console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
 
-// // // // Variable name conventions
-// // // let jonas_matilda = "JM";
-// // // let $function = 27;
+// // Variable name conventions
+// let jonas_matilda = "JM";
+// let $function = 27;
 
-// // // let person = "jonas";
-// // // let PI = 3.1415;
+// let person = "jonas";
+// let PI = 3.1415;
 
-// // // let myFirstJob = "Coder";
-// // // let myCurrentJob = "Teacher";
+// let myFirstJob = "Coder";
+// let myCurrentJob = "Teacher";
 
-// // // let job1 = "programmer";
-// // // let job2 = "teacher";
+// let job1 = "programmer";
+// let job2 = "teacher";
 
-// // // console.log(myFirstJob);
+// console.log(myFirstJob);
 
-// // // ////////////////////////////////////
-// // // // Data Types
-// // // let javascriptIsFun = true;
-// // // console.log(javascriptIsFun);
+// ////////////////////////////////////
+// // Data Types
+// let javascriptIsFun = true;
+// console.log(javascriptIsFun);
 
-// // // // console.log(typeof true);
-// // // console.log(typeof javascriptIsFun);
-// // // // console.log(typeof 23);
-// // // // console.log(typeof 'Jonas');
+// // console.log(typeof true);
+// console.log(typeof javascriptIsFun);
+// // console.log(typeof 23);
+// // console.log(typeof 'Jonas');
 
-// // // javascriptIsFun = 'YES!';
-// // // console.log(typeof javascriptIsFun);
+// javascriptIsFun = 'YES!';
+// console.log(typeof javascriptIsFun);
 
-// // // let year;
-// // // console.log(year);
-// // // console.log(typeof year);
+// let year;
+// console.log(year);
+// console.log(typeof year);
 
-// // // year = 1991;
-// // // console.log(typeof year);
+// year = 1991;
+// console.log(typeof year);
 
-// // // console.log(typeof null);
+// console.log(typeof null);
 
-// // // ////////////////////////////////////
-// // // // let, const and var
-// // // let age = 30;
-// // // age = 31;
+// ////////////////////////////////////
+// // let, const and var
+// let age = 30;
+// age = 31;
 
-// // // const birthYear = 1991;
-// // // // birthYear = 1990;
-// // // // const job;
+// const birthYear = 1991;
+// // birthYear = 1990;
+// // const job;
 
-// // // var job = 'programmer';
-// // // job = 'teacher'
+// var job = 'programmer';
+// job = 'teacher'
 
-// // // lastName = 'Schmedtmann';
-// // // console.log(lastName);
+// lastName = 'Schmedtmann';
+// console.log(lastName);
 
-// // // ////////////////////////////////////
-// // // // Basic Operators
-// // // // Math operators
-// // // const now = 2037;
-// // // const ageJonas = now - 1991;
-// // // const ageSarah = now - 2018;
-// // // console.log(ageJonas, ageSarah);
+// ////////////////////////////////////
+// // Basic Operators
+// // Math operators
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+// console.log(ageJonas, ageSarah);
 
-// // // console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
-// // // // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+// console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-// // // const firstName = 'Jonas';
-// // // const lastName = 'Schmedtmann';
-// // // console.log(firstName + ' ' + lastName);
+// const firstName = 'Jonas';
+// const lastName = 'Schmedtmann';
+// console.log(firstName + ' ' + lastName);
 
-// // // // Assignment operators
-// // // let x = 10 + 5; // 15
-// // // x += 10; // x = x + 10 = 25
-// // // x *= 4; // x = x * 4 = 100
-// // // x++; // x = x + 1
-// // // x--;
-// // // x--;
-// // // console.log(x);
+// // Assignment operators
+// let x = 10 + 5; // 15
+// x += 10; // x = x + 10 = 25
+// x *= 4; // x = x * 4 = 100
+// x++; // x = x + 1
+// x--;
+// x--;
+// console.log(x);
 
-// // // // Comparison operators
-// // // console.log(ageJonas > ageSarah); // >, <, >=, <=
-// // // console.log(ageSarah >= 18);
+// // Comparison operators
+// console.log(ageJonas > ageSarah); // >, <, >=, <=
+// console.log(ageSarah >= 18);
 
-// // // const isFullAge = ageSarah >= 18;
+// const isFullAge = ageSarah >= 18;
 
-// // // console.log(now - 1991 > now - 2018);
-
-// // // ////////////////////////////////////
-// // // // Operator Precedence
-// // const now = 2037;
-// // const ageJonas = now - 1991;
-// // const ageSarah = now - 2018;
-
-// // console.log(now - 1991 > now - 2018);
-
-// // let x, y;
-// // x = y = 25 - 10 - 5; // x = y = 10, x = 10
-// // console.log(x, y);
-
-// // const averageAge = (ageJonas + ageSarah) / 2;
-// // console.log(ageJonas, ageSarah, averageAge);
+// console.log(now - 1991 > now - 2018);
 
 // // ////////////////////////////////////
-// // // Coding Challenge #1
+// // // Operator Precedence
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+
+// console.log(now - 1991 > now - 2018);
+
+// let x, y;
+// x = y = 25 - 10 - 5; // x = y = 10, x = 10
+// console.log(x, y);
+
+// const averageAge = (ageJonas + ageSarah) / 2;
+// console.log(ageJonas, ageSarah, averageAge);
+
+// ////////////////////////////////////
+// // Coding Challenge #1
 
 // // Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
 
@@ -664,118 +664,118 @@
 // // */
 
 // // //
-// // const massMark = 78;
-// // const heightMark = 1.69;
-// // const massJohn = 92;
-// // const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-// // // const massMark = 95;
-// // // const heightMark = 1.88;
-// // // const massJohn = 85;
-// // // const heightJohn = 1.76;
+// // const massMark = 95;
+// // const heightMark = 1.88;
+// // const massJohn = 85;
+// // const heightJohn = 1.76;
 
-// // const BMIMark = massMark / heightMark ** 2;
-// // const BMIJohn = massJohn / (heightJohn * heightJohn);
-// // console.log(BMIMark, BMIJohn);
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
 
-// // if (BMIMark > BMIJohn) {
-// //   console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`)
-// // } else {
-// //   console.log(`John's BMI (${BMIJohn}) is higher than Marks's (${BMIMark})!`)
-// // }
+// if (BMIMark > BMIJohn) {
+//   console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`)
+// } else {
+//   console.log(`John's BMI (${BMIJohn}) is higher than Marks's (${BMIMark})!`)
+// }
 
 // // ////////////////////////////////////
 // // // Type Conversion and Coercion
 
 // // // type conversion
-// // const inputYear = '1991';
-// // console.log(Number(inputYear), inputYear);
-// // console.log(Number(inputYear) + 18);
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
 
-// // console.log(Number('Jonas'));
-// // console.log(typeof NaN);
+// console.log(Number('Jonas'));
+// console.log(typeof NaN);
 
-// // console.log(String(23), 23);
+// console.log(String(23), 23);
 
-// // // type coercion
-// // console.log('I am ' + 23 + ' years old');
-// // console.log('23' - '10' - 3);
-// // console.log('23' / '2');
+// // type coercion
+// console.log('I am ' + 23 + ' years old');
+// console.log('23' - '10' - 3);
+// console.log('23' / '2');
 
-// // let n = '1' + 1; // '11'
-// // n = n - 1;
-// // console.log(n);
+// let n = '1' + 1; // '11'
+// n = n - 1;
+// console.log(n);
 
-// // ////////////////////////////////////
-// // // Truthy and Falsy Values
+// ////////////////////////////////////
+// // Truthy and Falsy Values
 
-// // // 5 falsy values: 0, '', undefined, null, NaN
-// // console.log(Boolean(0));
-// // console.log(Boolean(undefined));
-// // console.log(Boolean('Jonas'));
-// // console.log(Boolean({}));
-// // console.log(Boolean(''));
+// // 5 falsy values: 0, '', undefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
-// // const money = 100;
-// // if (money) {
-// //   console.log("Don't spend it all ;)");
-// // } else {
-// //   console.log('You should get a job!');
-// // }
+// const money = 100;
+// if (money) {
+//   console.log("Don't spend it all ;)");
+// } else {
+//   console.log('You should get a job!');
+// }
 
-// // let height = 0;
-// // if (height) {
-// //   console.log('YAY! Height is defined');
-// // } else {
-// //   console.log('Height is UNDEFINED');
-// // }
+// let height = 0;
+// if (height) {
+//   console.log('YAY! Height is defined');
+// } else {
+//   console.log('Height is UNDEFINED');
+// }
 
-// // ////////////////////////////////////
-// // // Equality Operators: == vs. ===
-// // const age = '18';
-// // if (age === 18) console.log('You just became an adult :D (strict)');
+// ////////////////////////////////////
+// // Equality Operators: == vs. ===
+// const age = '18';
+// if (age === 18) console.log('You just became an adult :D (strict)');
 
-// // if (age == 18) console.log('You just became an adult :D (loose)');
+// if (age == 18) console.log('You just became an adult :D (loose)');
 
-// // const favourite = Number(prompt("What's your favourite number?"));
-// // console.log(favourite);
-// // console.log(typeof favourite);
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
 
-// // if (favourite === 23) { // 22 === 23 -> FALSE
-// //   console.log('Cool! 23 is an amzaing number!')
-// // } else if (favourite === 7) {
-// //   console.log('7 is also a cool number')
-// // } else if (favourite === 9) {
-// //   console.log('9 is also a cool number')
-// // } else {
-// //   console.log('Number is not 23 or 7 or 9')
-// // }
+// if (favourite === 23) { // 22 === 23 -> FALSE
+//   console.log('Cool! 23 is an amzaing number!')
+// } else if (favourite === 7) {
+//   console.log('7 is also a cool number')
+// } else if (favourite === 9) {
+//   console.log('9 is also a cool number')
+// } else {
+//   console.log('Number is not 23 or 7 or 9')
+// }
 
-// // if (favourite !== 23) console.log('Why not 23?');
+// if (favourite !== 23) console.log('Why not 23?');
 
-// // ////////////////////////////////////
-// // // Logical Operators
-// // const hasDriversLicense = true; // A
-// // const hasGoodVision = true; // B
+// ////////////////////////////////////
+// // Logical Operators
+// const hasDriversLicense = true; // A
+// const hasGoodVision = true; // B
 
-// // console.log(hasDriversLicense && hasGoodVision);
-// // console.log(hasDriversLicense || hasGoodVision);
-// // console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-// // // if (hasDriversLicense && hasGoodVision) {
-// // //   console.log('Sarah is able to drive!');
-// // // } else {
-// // //   console.log('Someone else should drive...');
-// // // }
-
-// // const isTired = false; // C
-// // console.log(hasDriversLicense && hasGoodVision && isTired);
-
-// // if (hasDriversLicense && hasGoodVision && !isTired) {
+// // if (hasDriversLicense && hasGoodVision) {
 // //   console.log('Sarah is able to drive!');
 // // } else {
 // //   console.log('Someone else should drive...');
 // // }
+
+// const isTired = false; // C
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log('Sarah is able to drive!');
+// } else {
+//   console.log('Someone else should drive...');
+// }
 // // */
 
 // // ////////////////////////////////////
